@@ -4,7 +4,7 @@ A script to quantify radio channel measurements performed with a correlative sou
 The measurement data this script was originally intended for can be found at [insert Link] and is described in [insert paper]. The provided files are intended to perform the following tasks:
 
 ## Measurement.py
-A collection of methods to provide the fundamental computations to extract coherence parameters RX power levels from the raw data. The names of the files are expected to be in the following format: '{ Name }_{ Date }_{ Time }_{ fc }MHz_{ fs }MSps_{ capture_interval }ms.dat'
+A collection of methods to provide the fundamental computations to extract coherence parameters RX power levels from the raw data. The names of the files are expected to be in the following format: '{ Name }\_{ Date }\_{ Time }\_{ fc }MHz\_{ fs }MSps\_{ capture_interval }ms.dat'
 
 ## analyze-measurements.py
 process the computed coherence parameters into graphs and save them. This script may be executed with the following arguments:

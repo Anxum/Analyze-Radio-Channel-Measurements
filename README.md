@@ -3,10 +3,10 @@ A script to quantify radio channel measurements performed with a correlative sou
 
 The measurement data this script was originally intended for can be found at [insert Link] and is described in [insert paper]. The provided files are intended to perform the following tasks:
 
-##Measurement.py
+## Measurement.py
 A collection of methods to provide the fundamental computations to extract coherence parameters RX power levels from the raw data.
 
-##analyze-measurements.py
+## analyze-measurements.py
 process the computed coherence parameters into graphs and save them. This script may be executed with the following arguments:
 
 Argument | Description | Default 

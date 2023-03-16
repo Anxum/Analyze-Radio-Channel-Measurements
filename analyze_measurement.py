@@ -165,11 +165,6 @@ def covariance_plot(measurement: Measurement, correlation_method: str, outpath: 
     plt.scatter(power, B_coh, marker = ".")
     plt.xlabel(f"RX power [dBFS]")
     plt.ylabel(f"Coherence Bandwidth [MHz]")
-    plt.xlim([-60,0])
-    if correlation_method == "classic":
-        plt.ylim([-0.2,5])
-    if correlation_method == "cyclic":
-        plt.ylim([0,15])
     plt.title(f"Coherence Bandwidth over RX power of '{measurement.name}' - {correlation_method}")
     x = np.array([np.min(power)*1.1,np.max(power)*0.9])
     b, m = polyfit(power, B_coh, 1)
